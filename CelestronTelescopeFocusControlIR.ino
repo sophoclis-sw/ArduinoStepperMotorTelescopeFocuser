@@ -170,7 +170,7 @@ void LG_TV_Remote()
       case 0xB834019E: command=" Rec";            break;
 
       case 0xD7EA407B: command=" SimpLink";       break;
-      //<TV Commands>
+      //</TV Commands>
  
       //<Set Top Box Commands>
       case 0x8939B93A: command=" Power";          break;
