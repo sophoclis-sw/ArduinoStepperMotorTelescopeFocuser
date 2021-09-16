@@ -1,8 +1,9 @@
-- 👀 I’m interested in Arduino and Raspberry Pi projects, as well as Python and C/C++ projects too.
-- This project is an Arduino driven 28YBT-48 DC 5V stepper motor, using a ULN2003 driver.
-- It's used to turn the focuser of my telescope without touching and wobbling the telescope, while it's giving an accuracy of less than 1/10 of a degree.
-- The stepper motor has only 64 steps, but it has an embedded gearbox, dividing them by 64, so it takes 4096 steps to complete a 360º.
-
+- This project is DIY Arduino telescope focuser.
+- The Arduino drives a 28YBT-48 DC 5V stepper motor, using a ULN2003 driver.
+- Using 2 push buttons, you can select 5 focusing speeds, increasing every time you press the same button and decreasing as you press the other one.
+- Pressing both buttons simultaneously stops the focusing motor.
+- It has an accuracy of about 1/10 of a degree, because the stepper motor has a 64x gearbox, so it takes a total of 4096 steps to complete a 360º.
+- The software also supports an infrared remote control instead of the buttons for the same functionality.
 
 
 <!---
