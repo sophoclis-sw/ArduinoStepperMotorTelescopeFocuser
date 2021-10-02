@@ -1,6 +1,35 @@
 #include <IRLib.h>
 
 //=================================================================================================================
+// Arduino Nano Pinouts:
+// 
+// Stepper motor ULN2003 controller board:
+// in1 —> Arduino pin D7 (digital out)
+// in2 —> Arduino pin D6 (digital out)
+// in3 —> Arduino pin D5 (digital out)
+// in4 —> Arduino pin D4 (digital out)
+// 
+// IR sensor breakout board:
+// Signal (Pin1) —> Arduino pin D10 (digital in)
+// VCC (Pin2) —> Arduino pin D11 (digital out, HIGH)
+// GND (Pin3) —> Arduino pin D12 (digital out, LOW)
+// 
+// Dual colour led on the keypad:
+// Green LED pin —> Arduino pin D9 (digital out)
+// Red LED pin —> Arduino Pin D8 (digital out)
+// 
+// Keypad pins:
+// Button1 (clockwise) pin1 —> Arduino pin D14 (digital out)
+// Button1 (clockwise) pin2 —> Arduino pin D15 (digital in pullup)
+// Button2 (counter clockwise) pin1 —> Arduino pin D16 (digital out)
+// Button2 (counter clockwise) pin2 —> Arduino pin D17 (digital in pullup)
+// 
+// Built in LED:
+// Arduino pin D13
+//=================================================================================================================
+
+
+//=================================================================================================================
 unsigned long currentMillis         = 0;
 unsigned long lastMillis1           = 0;              // will store last time LED was updated
 unsigned long lastMillis2           = 0;
