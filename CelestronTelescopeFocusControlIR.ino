@@ -19,10 +19,10 @@
 // Red LED pin —> Arduino Pin D8 (digital out)
 // 
 // Keypad pins:
-// Button1 (clockwise) pin1 —> Arduino pin D14 (digital out)
-// Button1 (clockwise) pin2 —> Arduino pin D15 (digital in pullup)
-// Button2 (counter clockwise) pin1 —> Arduino pin D16 (digital out)
-// Button2 (counter clockwise) pin2 —> Arduino pin D17 (digital in pullup)
+// Button1 (clockwise) pin1 —> Arduino pin A0/D14 (digital out)
+// Button1 (clockwise) pin2 —> Arduino pin A1/D15 (digital in pull-up)
+// Button2 (counter clockwise) pin1 —> Arduino pin A2/D16 (digital out)
+// Button2 (counter clockwise) pin2 —> Arduino pin A3/D17 (digital in pull-up)
 // 
 // Built in LED:
 // Arduino pin D13
